@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+venv/
+*.py[cod]
+*$py.class
+
+# Mac custom attributes file (Desktop Service Store)
+.DS_Store
+
+# VsCode files
+.vscode/
+
+# Instance Folder - used for configuration parameters
+/instance
+
+#Venv Folder
+/bulk_venv

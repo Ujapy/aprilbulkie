@@ -1,0 +1,18 @@
+{% import "bootstrap/utils.html" as utils %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% extends "layout.html" %}
+{% block title %}Register{% endblock %}
+{% block body %}
+<!--div class="intro-header"-->
+<div class="content-section">
+  <br/>
+  {{ utils.flashed_messages() }}
+  <br/>
+  <div class="center">
+    <h1>Register Your Account</h1>
+    <br/>
+    {{ wtf.quick_form(form) }}
+  </div>
+</div>
+</div>
+{% endblock %}
